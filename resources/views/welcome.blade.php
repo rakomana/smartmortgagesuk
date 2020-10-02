@@ -91,64 +91,7 @@
 			</div>
 		</div>
 		<!-- featured-area-end -->
-		<!-- our-recent-area-start -->
-		<div class="our-recent-area pt-110 pb-255" style="background-image:url(img/bg/bg-yellow.jpg)">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="our-recent-wrapper text-black">
-							<div class="our-recent-text text-center">
-								<span>What we have done</span>
-								<h1>Our Recent Success History</h1>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- our-recent-area-end -->
-		<!-- counter-area-start -->
-		<div class="counter-area">
-			<div class="container">
-				<div class="counter-bg pt-100 pb-75">
-					<div class="row">
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="counter-wrapper mb-30">
-								<div class="counter-text text-center">
-									<h1 class="counter">10564</h1>
-									<span>Mortgages Enquiries</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="counter-wrapper mb-30">
-								<div class="counter-text text-center">
-									<h1 class="counter">8362</h1>
-									<span>Mortgages Accepted</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="counter-wrapper mb-30">
-								<div class="counter-text text-center">
-									<h1 class="counter">953</h1>
-									<span>Project Completed</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="counter-wrapper mb-30">
-								<div class="counter-text text-center">
-									<h1 class="counter">265</h1>
-									<span>Satisfied Clients</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- counter-area-end -->
+		
 		<!-- services-area-start -->
 		<div class="services-area pt-200 pb-90 gray-bg">
 			<div class="container">
