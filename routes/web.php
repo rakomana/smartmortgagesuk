@@ -21,6 +21,31 @@ Route::get('/custom', function() {
 Route::get('/', 'HomeController@index');
 Route::get('/about', 'HomeController@showAbout');
 
+Route::get('/clear-cache', function() {
+    Artisan::call('cache:clear');
+    return "Cache is cleared";
+});
+Route::get('/clear-config', function() {
+    Artisan::call('config:clear');
+    return "Cache is cleared";
+});
+Route::get('/clear-route', function() {
+    Artisan::call('route:clear');
+    return "Cache is cleared";
+});
+Route::get('/clear-view', function() {
+    Artisan::call('view:clear');
+    return "Cache is cleared";
+});
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+
+Route::get('/terms', function () {
+    return view('terms');
+});
+
 
 Route::get('/mortgages', 'MortgageController@getAllServices');
 Route::get('/mortgages/remortgages/{url}', 'MortgageController@show');

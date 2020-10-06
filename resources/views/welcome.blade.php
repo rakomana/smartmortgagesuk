@@ -96,7 +96,7 @@
 		<div class="services-area pt-200 pb-90 gray-bg">
 			<div class="container">
 				<div class="section-title text-center mb-50">
-					<h1>We Provides Best Services</h1>
+					<h1>Our services provided with very competitve rates</h1>
 					<p>We compare the whole of the market to find you the right remortgage.</p>
 				</div>
 				<div class="row">
@@ -109,6 +109,13 @@
 								<h4>Remortgage</h4>
 								<p>Remortgage your house to free up capital to make those home improvements. You could also reduce your monthly payments through a lower rate.</p>
 							</div>
+							<form method="post" action="{{url('/get-a-quote')}}">
+								@csrf
+								<input type="hidden" name="type" value="all">
+								<button class="custom btn btn-black" type="submit" data-animation="fadeInLeft" data-delay="1.2s">get my quote
+									<i class="fas fa-long-arrow-alt-right"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -120,6 +127,13 @@
 								<h4>Debt Consolidation</h4>
 								<p>By consolidating your debts into one repayment plan by remortgaging your property, you may be able to reduce your monthly outgoings.</p>
 							</div>
+							<form method="post" action="{{url('/get-a-quote')}}">
+								@csrf
+								<input type="hidden" name="type" value="all">
+								<button class="custom btn btn-black" type="submit" data-animation="fadeInLeft" data-delay="1.2s">get my quote
+									<i class="fas fa-long-arrow-alt-right"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -131,6 +145,13 @@
 								<h4>Bad Credit Remortgage</h4>
 								<p>Getting a remortgage can be difficult when you have a bad credit rating, county court judgements (CCJs), payment defaults, mortgage arrears. </p>
 							</div>
+							<form method="post" action="{{url('/get-a-quote')}}">
+								@csrf
+								<input type="hidden" name="type" value="all">
+								<button class="custom btn btn-black" type="submit" data-animation="fadeInLeft" data-delay="1.2s">get my quote
+									<i class="fas fa-long-arrow-alt-right"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -142,6 +163,13 @@
 								<h4>Buy To Let</h4>
 								<p>We specialise in buy to let mortgages and can match you to the right lenders.  </p>
 							</div>
+							<form method="post" action="{{url('/get-a-quote')}}">
+								@csrf
+								<input type="hidden" name="type" value="all">
+								<button class="custom btn btn-black" type="submit" data-animation="fadeInLeft" data-delay="1.2s">get my quote
+									<i class="fas fa-long-arrow-alt-right"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -153,6 +181,13 @@
 								<h4>Home Owner Loans</h4>
 								<p>facilitate the purchase of a house or to finance the construction of one.</p>
 							</div>
+							<form method="post" action="{{url('/get-a-quote')}}">
+								@csrf
+								<input type="hidden" name="type" value="all">
+								<button class="custom btn btn-black" type="submit" data-animation="fadeInLeft" data-delay="1.2s">get my quote
+									<i class="fas fa-long-arrow-alt-right"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -161,9 +196,16 @@
 								<img src="img/service/6.png" alt="">
 							</div>
 							<div class="services-text">
-								<h4>Compare Morgages</h4>
+								<h4>Compare Mortgages</h4>
 								<p> We compare the whole of the market to find you the right remortgage. </p>
 							</div>
+							<form method="post" action="{{url('/get-a-quote')}}">
+								@csrf
+								<input type="hidden" name="type" value="all">
+								<button class="custom btn btn-black" type="submit" data-animation="fadeInLeft" data-delay="1.2s">get my quote
+									<i class="fas fa-long-arrow-alt-right"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -196,7 +238,6 @@
 
 					</div>
 				</div>
-				
 				<div class="col-xl-6 col-lg-6">
 					<div class="clients-say-wrapper" style="text-align: center;">
 						<h1>Results</h1>
