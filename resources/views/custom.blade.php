@@ -1,5 +1,7 @@
 @extends('layouts.custom')
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 @section('content')
 <div class="page-wrapper bg-gra-03 p-t-45 p-b-50" id="implement">
         <div class="wrapper wrapper--w790">
@@ -171,6 +173,16 @@
         </div>
     </div>
 
+    <div class="w3-content w3-section" style="padding-bottom: 20px;">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/Digital Mortgages.jpg')}}">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/Halifax.jpg')}}">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/hsbc.jpg')}}">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/Kent reliance.jpg')}}">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/Nationwide.jpg')}}">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/Natwest.jpg')}}">
+        <img style="display: block; margin:0 auto;" class="mySlides" src="{{asset('img/sliding-logos/Santander.jpg')}}">
+    </div>
+
     <script>
         const App = new Vue({
             el: "#implement",
@@ -255,5 +267,21 @@
                 }
             }
         })
+    </script>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
     </script>
 @endsection
