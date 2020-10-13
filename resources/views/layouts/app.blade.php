@@ -66,7 +66,7 @@
 													<a href="{{url('contact')}}"> Contact Us</a>
 												</li>
 												<li>
-													<a href="{{url('resource')}}"> Resources</a>
+													<!--<a href="{{url('resource')}}"> Resources</a>-->
 												</li>
 											</ul>
 										</li>
@@ -88,31 +88,31 @@
 													<a href="{{url('secured-loan/' .$url = 'home-owner-loans')}}"> Home Owner Loans </a>
 												</li>
 												<li>
-													<a href="{{url('secured-loan/' .$url = 'bad-credit-secured-loans')}}"> Bad Credit Secured Loans</a>
+													<a href="{{url('/get-a-quote')}}"> Bad Credit Secured Loans</a>
 												</li>
-											</ul>
+											</ul><!--
 										<li>
 											<a href="{{url('/get-a-quote')}}">Buy to Let</a>
 											<ul class="submenu">
 												<li>
-													<a href="{{url('mortgages/' .$url = 'buy-to-let-mortgages')}}"> Buy to Let Mortgages </a>
+													<a href="{{url('/get-a-quote')}}"> Buy to Let Mortgages </a>
 												</li>
 												<li>
-													<a href="{{url('mortgages/' .$url = 'right-to-buy-mortgage')}}"> Right to Buy Mortgages</a>
+													<a href="{{url('/get-a-quote')}}"> Right to Buy Mortgages</a>
 												</li>
 												<li>
-													<a href="{{url('mortgages/' .$url = 'let-to-buy-mortgage')}}"> Let to Buy Mortgages</a>
+													<a href="{{url('/get-a-quote')}}"> Let to Buy Mortgages</a>
 												</li>
 												<li>
-													<a href="{{url('mortgages/' .$url = 'help-to-buy-mortgage')}}"> Help to Buy Mortgages</a>
+													<a href="{{url('/get-a-quote')}}"> Help to Buy Mortgages</a>
 												</li>
 											</ul>
-										</li>
+										</li>-->
 										<li>
 											<a href="{{url('/get-a-quote')}}">House Purchase</a>
 											<ul class="submenu">
 												<li>
-													<a href="{{url('mortgages/' .$url = 'home-improvement-mortgage')}}"> Home Improvement</a>
+													<a href="{{url('/get-a-quote')}}"> Home Improvement</a>
 												</li>
 										</li>
 									</ul>

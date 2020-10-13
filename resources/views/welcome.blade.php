@@ -142,7 +142,7 @@
 								<img src="img/service/3.png" alt="">
 							</div>
 							<div class="services-text">
-								<h4>Bad Credit Remortgage</h4>
+								<h4>Bad Credit</h4>
 								<p>Getting a remortgage can be difficult when you have a bad credit rating, county court judgements (CCJs), payment defaults, mortgage arrears. </p>
 							</div>
 							<form method="post" action="{{url('/get-a-quote')}}">
@@ -235,17 +235,15 @@
 								</div>
 							</div>
 						</form>
-
+						<div v-if="interest && principal && years" class="clients-say-title">
+							<h1 style="color: white;">Results</h1>
+							<p>Your monthly payment will be: <span style="font-size: 18px; color: white;"><b>£ @{{remortgageCalculator}}</b></span></p>
+							<p>The total amount you will pay over the term is: <span style="font-size: 18px; color: white;"><b>£ @{{totalAmount}}</b></span></p>
+						</div>
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-6">
 					<div class="clients-say-wrapper" style="text-align: center;">
-						<h1>Results</h1>
-						<div v-if="interest && principal && years" class="clients-say-title">
-							<p>Your monthly payment will be: €<span style="font-size: 18px;"><b>@{{remortgageCalculator}}</b></span></p>
-							<p>The total amount you will pay over the term is:  €<span style="font-size: 18px;"><b>@{{totalAmount}}</b></span></p>
-						</div>
-						<br>
 						<div class="clienyts-say-active owl-carousel">
 							<div class="single-clients">
 								<div class="clients-say-text">
