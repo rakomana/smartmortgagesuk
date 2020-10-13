@@ -1,5 +1,7 @@
 @extends('layouts.custom')
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 @section('content')
 <div class="page-wrapper bg-gra-03 p-t-45 p-b-50" id="implement">
         <div class="wrapper wrapper--w790">
@@ -8,6 +10,40 @@
                     <h2 class="title">100% Secure</h2>
                 </div>
                 <div class="card-body">
+                    <div class="w3-content w3-section" style="padding-bottom: 20px;">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Digital Mortgages.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Halifax.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/hsbc.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Kent reliance.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Nationwide.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Natwest.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Santander.jpg')}}">
+                
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/accord.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Aegon_logo_RGB.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/aldremore.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/aviva.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/barclays.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/BOI_UK_INTER_LOGO 2 COL.JPG')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/CB logo_round_RGB_AW.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/CBS_flat logo_RGB.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/COVENTRY.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/EX_Logo_CMYK_SafeArea.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/fbs_basic_cmyk_54.0.29.2.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/fleet.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/foundation home loans.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/GODIVA.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/H&R 2011.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/H&R.gif')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/IBS_rgb.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/images.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/index.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/kensington.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Precise Mortgages Logo.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/saffron-bs-logo.png')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/SKIPTON INTERMEDIARIES SPOT LOGO.jpg')}}">
+                        <img style="display: block; margin:0 auto; width: 300px; height: 150px;" class="mySlides" src="{{asset('img/sliding-logos/Vida_Logo_HiRes.png')}}">
+                    </div>
                     <div id="stepProgressBar">
                         <div class="step">
                             <p class="step-text">Step1</p>
@@ -255,5 +291,21 @@
                 }
             }
         })
+    </script>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
     </script>
 @endsection

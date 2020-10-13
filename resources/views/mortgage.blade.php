@@ -25,34 +25,43 @@
 					<button data-filter=".cat5">Insurance</button>
 				</div>
 				<div class="row grid">
-				@foreach ($mortgages as $mortgage)
+					@foreach ($mortgages as $mortgage)
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 grid-item cat1">
-							<div class="project-wrapper mb-30">
+						@if($mortgage->article_heading_1)	
+						<div class="project-wrapper mb-30">
 										<h4>
 											<i class="fas fa-long-arrow-alt-right" style="color: #FBBA42;"></i>
 											<a href="{{url('mortgages/' .$mortgage->url)}}">{{$mortgage->name}}</a>
 										</h4>
 							</div>
+							@else
+							@endif
 					</div>
 					@endforeach
 					@foreach ($loans as $loan)
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 grid-item cat2">
+						@if($loan->article_heading_1)
 						<div class="project-wrapper mb-30">
 									<h4>
 										<i class="fas fa-long-arrow-alt-right" style="color: #FBBA42;"></i>
 										<a href="{{url('secured-loan/' .$loan->url)}}">{{$loan->name}}</a>
 									</h4>
 						</div>
+						@else
+						@endif
 					</div>
 					@endforeach
 					@foreach ($equities as $equity)
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 grid-item cat3">
+						@if($equity->article_heading_1)
 						<div class="project-wrapper mb-30">
 									<h4>
 										<i class="fas fa-long-arrow-alt-right" style="color: #FBBA42;"></i>
 										<a href="{{url('equity/' .$equity->url)}}">{{$equity->name}}</a>
 									</h4>
 						</div>
+						@else
+						@endif
 					</div>
 					@endforeach
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 grid-item cat4">

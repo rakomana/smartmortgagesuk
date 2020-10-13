@@ -126,7 +126,7 @@
 										<li>
 											<div class="rc-post-content">
 												<h4>
-													<a href="{{url('mortgages/' .$url = 'home-improvement-mortgage')}}">
+													<a href="{{url('mortgages/' .$url = 'drawn-down-life-mortgage')}}">
 													Business & Personal Drawdown Loans For Home Improvements Or Real Estate Investments</a>
 												</h4>
 												<div class="widget-date"> 2020-09-10</div>
