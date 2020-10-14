@@ -44,43 +44,43 @@
 
 <body>
     <div class="row wrapper wrapper--w790">
-        <a href="{{url('/')}}"><br><br><img id="comp-kb980ox52imgimage" style="object-position:50% 50%;height:65px;object-fit:contain" alt="SMUK LOGO.PNG" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/83d864_92c810fd334b4db69306ab77f8cb987f~mv2.png/v1/fill/w_320,h_85,al_c,q_85,usm_0.66_1.00_0.01/SMUK%20LOGO_PNG.webp"></a>
+        <a href="{{url('/')}}"><br><br><img id="comp-kb980ox52imgimage" style="object-position:50% 50%;width:300px;height:65px;object-fit:contain" alt="SMUK LOGO.PNG" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/83d864_92c810fd334b4db69306ab77f8cb987f~mv2.png/v1/fill/w_320,h_85,al_c,q_85,usm_0.66_1.00_0.01/SMUK%20LOGO_PNG.webp"></a>
     
 
     
-    <div class="w3-content w3-section" style="padding-bottom: 20px; object-position:50% 50%;width:10px;height:65px;object-fit:contain text-align: right;">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Digital Mortgages.jpg')}}">
+    <div class="w3-content w3-section" style="padding-bottom: 20px; object-position:50% 50%;width:50px;height:65px;object-fit:contain text-align: right;">
+                       <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Digital Mortgages.jpg')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Halifax.jpg')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/hsbc.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Kent reliance.jpg')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Kent reliance.jpg')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/nationwide-bs-logo-srgb_0-1.jpg')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Natwest.jpg')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/banco-santander-seeklogo.com.svg')}}">
                 
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/download.png')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/download.png')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Aegon_logo_RGB.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/aldremore.png')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/aviva.png')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/aldremore.png')}}"> -->
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/aviva.png')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/barclays.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/BOI_UK_INTER_LOGO 2 COL.JPG')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/CB logo_round_RGB_AW.png')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/BOI_UK_INTER_LOGO 2 COL.JPG')}}"> -->
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/CB logo_round_RGB_AW.png')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/CBS_flat logo_RGB.jpg')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/COVENTRY.jpg')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/EX_Logo_CMYK_SafeArea.png')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/fbs_basic_cmyk_54.0.29.2.jpg')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/fbs_basic_cmyk_54.0.29.2.jpg')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/fleet.png')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/foundation home loans.png')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/foundation home loans.png')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/GODIVA.jpg')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/H&R 2011.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/H&R.gif')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/IBS_rgb.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/images.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/MarsdenOnWhite196_95de352464.jpeg')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/H&R.gif')}}"> -->
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/IBS_rgb.jpg')}}"> -->
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/images.jpg')}}"> -->
+                       <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/MarsdenOnWhite196_95de352464.jpeg')}}"> -->
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/kensington.png')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Precise Mortgages Logo.png')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/saffron-bs-logo.png')}}">
                         <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/SKIPTON INTERMEDIARIES SPOT LOGO.jpg')}}">
-                        <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Vida_Logo_HiRes.png')}}">
+                        <!-- <img style="display: block; margin:0 auto; width: 250px; height: 100px;" class="mySlides" src="{{asset('img/sliding-logos/Vida_Logo_HiRes.png')}}"> -->
                     </div>
     </div>
     @yield('content');
