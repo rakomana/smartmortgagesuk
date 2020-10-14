@@ -224,18 +224,10 @@
 						<div class="team-wrapper team2-wrapper mb-55">
 							<div class="team2-img">
 								<img src="img/user.jpg" alt="" />
-								<div class="team2-text">
-									<ul class="team3-icon">
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-									</ul>
-								</div>
 							</div>
-							<div class="team3-text">
-								<h4>Emma S. Shin</h4>
-								<span>Financial Advisor</span>
+							<div class="team3-text text-center">
+								<h6><b>Emma S. Shin</b></h6>
+								<h6>Financial Advisor</h6>
 							</div>
 						</div>
 					</div>
@@ -243,18 +235,10 @@
 						<div class="team-wrapper team2-wrapper mb-55">
 							<div class="team2-img">
 								<img src="img/user.jpg" alt="" />
-								<div class="team2-text">
-									<ul class="team3-icon">
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-									</ul>
-								</div>
 							</div>
-							<div class="team3-text">
-								<h4>Louis B. Thomas</h4>
-								<span>Banking Advisor</span>
+							<div class="team3-text text-center">
+								<h6><b>Louis B. Thomas</b></h6>
+								<h6>Banking Advisor</h6>
 							</div>
 						</div>
 					</div>
@@ -262,18 +246,10 @@
 						<div class="team-wrapper team2-wrapper mb-55">
 							<div class="team2-img">
 								<img src="img/user.jpg" alt="" />
-								<div class="team2-text">
-									<ul class="team3-icon">
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-									</ul>
-								</div>
 							</div>
-							<div class="team3-text">
-								<h4>Cassidy T. Ingham</h4>
-								<span>Business Advisor</span>
+							<div class="team3-text text-center">
+								<h6><b>Cassidy T. Ingham</b></h6>
+								<h6>Business Advisor</h6>
 							</div>
 						</div>
 					</div>
@@ -281,18 +257,10 @@
 						<div class="team-wrapper team2-wrapper mb-55">
 							<div class="team2-img">
 								<img src="img/user.jpg" alt="" />
-								<div class="team2-text">
-									<ul class="team3-icon">
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-									</ul>
-								</div>
 							</div>
-							<div class="team3-text">
-								<h4>Jerome J. Kondo</h4>
-								<span>Financial Advisor</span>
+							<div class="team3-text text-center">
+								<h6><b>Jerome J. Kondo</b></h6>
+								<h6>Financial Advisor</h6>
 							</div>
 						</div>
 					</div>
