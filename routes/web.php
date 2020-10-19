@@ -65,6 +65,8 @@ Route::get('/resource', 'ResourceController@index');
 
 Route::get('/resource/{url}', 'ResourceController@indexCategory');
 
+Route::post('/subscribe', 'SubscribeController@store');
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

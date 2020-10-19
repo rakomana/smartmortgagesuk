@@ -274,37 +274,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- clients-say-area-end -->		
-
-	<script>
-    const App = new Vue({
-        el: "#implement",
-        data: {
-            principal: null,
-            interest: null,
-            years: null,
-            newConvertedFloat: null,
-
-        },
-
-        mounted () {
-        	var fnf = document.getElementById("formattedNumberField");
-                fnf.addEventListener('keyup', function(evt){
-                    var n = parseInt(this.value.replace(/\D/g,''),10);
-                    fnf.value = n.toLocaleString();
-                }, false);
-        },
-
-        computed: {
-        	remortgageCalculator() {
-        		this.newConvertedFloat = this.principal.substring(1);
-        		return Math.round(parseFloat(this.newConvertedFloat.replace(/,/g, '')) * (((this.interest/100)/12) * Math.pow((1 + ((this.interest/100)/12)), (this.years * 12)) / (Math.pow((1 + ((this.interest/100)/12)), (this.years * 12)) -1)));
-        	},
-        	totalAmount() {
-        		return (this.remortgageCalculator * (this.years * 12)).toLocaleString();
-        	}
-        }
-    })
-</script>	
+		<!-- clients-say-area-end -->			
 
 @endsection

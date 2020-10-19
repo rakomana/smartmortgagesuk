@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/quotation','QuoteController@store');
 Route::post('/contact', 'ContactController@store');
+Route::post('/subscribe', 'SubscribeController@store');
 Route::get('/quote-submitted/thank-you', 'HomeController@thanks');

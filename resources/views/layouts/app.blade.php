@@ -184,14 +184,22 @@
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-							<div class="footer-wrapper mb-30">
+							<div id="custom" class="footer-wrapper mb-30">
 								<h3 class="footer-title">Subscribe</h3>
+								
 								<div class="subscribe-text">
 									<p>Enter  your email and get latest updates and offers subscribe us</p>
 								</div>
-								<form id="footer-form" action="#">
-									<input style="color: black" placeholder="Your Email ..." type="email">
-									<button><i class="fas fa-long-arrow-alt-right"></i></button>
+								<form id="footer-form" @submit.prevent="subscribe">
+									<input style="color: black" placeholder="Your Email ..." type="email" v-model="form.email">
+									<button type="submit">
+										<span v-if="loading">
+											<i class="fa fa-spinner fa-spin"></i>
+										</span>
+										<span v-else>
+										<i class="fas fa-long-arrow-alt-right"></i>
+										</span>
+									</button>
 								</form>
 							</div>
 						</div>
@@ -230,6 +238,37 @@
         <script src="{{asset('js/imagesloaded.pkgd.min.js')}}"></script>
         <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
         <script src="{{asset('js/plugins.js')}}"></script>
-        <script src="{{asset('js/main.js')}}"></script>
+		<script src="{{asset('js/main.js')}}"></script>
+		
+		<!-- subscribe start -->
+		<script>
+			const App = new Vue({
+				el: "#custom",
+				data: {
+					loading: false,
+					form: {
+                    	email: null,
+					}
+				},
+	
+				methods: {
+					subscribe: function() {
+						this.loading = true
+						axios.post('/api/subscribe', this.form)
+						.then(response => {
+							this.loading = false
+							this.form.email = null
+							swal("Good!", "Welcome to our news letters", "success");
+						})
+						.catch(error => {
+							this.loading = false
+							this.form.email = null
+							swal("Oops!", "Already subscribed", "warning");
+						})
+					}
+				}
+			})
+		</script>
+		<!-- subscribe end -->
     </body>
 </html>
