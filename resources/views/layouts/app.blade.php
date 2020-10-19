@@ -66,7 +66,7 @@
 													<a href="{{url('contact')}}"> Contact Us</a>
 												</li>
 												<li>
-													<!--<a href="{{url('resource')}}"> Resources</a>-->
+													<a href="{{url('resource')}}"> Resources</a>
 												</li>
 											</ul>
 										</li>
@@ -86,10 +86,10 @@
 											<ul class="submenu">
 												<li>
 													<a href="{{url('secured-loan/' .$url = 'home-owner-loans')}}"> Home Owner Loans </a>
-												</li>
+												</li><!--
 												<li>
 													<a href="{{url('/get-a-quote')}}"> Bad Credit Secured Loans</a>
-												</li>
+												</li>-->
 											</ul><!--
 										<li>
 											<a href="{{url('/get-a-quote')}}">Buy to Let</a>
@@ -154,9 +154,10 @@
 				<a href="{{url('contact')}}" class="btn btn-primary">Get in Touch</a>
 			</div>
         		<!-- footer-start -->
+        		
 		<footer>
 			<div class="footer-top-area footer-white gray-bg pt-110">
-				<div class="container">
+				<div class="container" style="border-top: 1px solid #e6e6e7;">
 					<div class="footer-border pb-45">
 						<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -175,8 +176,8 @@
 								<ul class="footer-menu">
 									<li><a href="{{url('about')}}">About Us</a></li>
                                     <li><a href="{{url('contact')}}">Contact Us</a></li>
-									<li><a href="{{url('remortgage-calculator')}}">Calculator</a></li>
-									<li><a href="{{url('contact')}}">Get a Quote</a></li>
+									<!--<li><a href="{{url('remortgage-calculator')}}">Calculator</a></li>-->
+									<li><a href="{{url('/get-a-quote')}}">Get a Quote</a></li>
 									<li><a href="{{url('privacy')}}">Privacy Policy</a></li>
                                     <li><a href="{{url('terms')}}">Terms & Conditions</a></li>
 									<li><a href="{{url('resource')}}">Resources</a></li>
@@ -188,7 +189,7 @@
 								<h3 class="footer-title">Subscribe</h3>
 								
 								<div class="subscribe-text">
-									<p>Enter  your email and get latest updates and offers subscribe us</p>
+									<p>Enter  your email and get latest updates and offers.</p>
 								</div>
 								<form id="footer-form" @submit.prevent="subscribe">
 									<input style="color: black" placeholder="Your Email ..." type="email" v-model="form.email">
@@ -238,10 +239,9 @@
         <script src="{{asset('js/imagesloaded.pkgd.min.js')}}"></script>
         <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
         <script src="{{asset('js/plugins.js')}}"></script>
-		<script src="{{asset('js/main.js')}}"></script>
-		
-		<!-- subscribe start -->
-		<script>
+        <script src="{{asset('js/main.js')}}"></script>
+        
+        <script>
 			const App = new Vue({
 				el: "#custom",
 				data: {
@@ -269,6 +269,5 @@
 				}
 			})
 		</script>
-		<!-- subscribe end -->
     </body>
 </html>
