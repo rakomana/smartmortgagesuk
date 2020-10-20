@@ -157,7 +157,7 @@
         		
 		<footer>
 			<div class="footer-top-area footer-white gray-bg pt-110">
-				<div class="container" style="border-top: 1px solid #e6e6e7;">
+				<div class="container" style="border-top: 1px solid #e6e6e7;"><br>
 					<div class="footer-border pb-45">
 						<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">

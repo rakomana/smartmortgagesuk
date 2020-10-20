@@ -211,6 +211,224 @@
 				</div>
 			</div>
 		</div>
-		<!-- services-area-end -->			
+		<!-- services-area-end -->
+		
+		<!-- team-area-start -->
+		<div class="team-area gray-bg pt-120 pb-60">
+			<div class="container">
+				<div class="section-title text-center mb-50">
+					<h1>Meet the team</h1>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+						<div class="team-wrapper team2-wrapper mb-55">
+							<div class="team2-img">
+								<img src="img/user.jpg" alt="" />
+							</div>
+							<div class="team3-text text-center">
+								<h6><b>Emma S. Shin</b></h6>
+								<h6>Financial Advisor</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+						<div class="team-wrapper team2-wrapper mb-55">
+							<div class="team2-img">
+								<img src="img/user.jpg" alt="" />
+							</div>
+							<div class="team3-text text-center">
+								<h6><b>Louis B. Thomas</b></h6>
+								<h6>Banking Advisor</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+						<div class="team-wrapper team2-wrapper mb-55">
+							<div class="team2-img">
+								<img src="img/user.jpg" alt="" />
+							</div>
+							<div class="team3-text text-center">
+								<h6><b>Cassidy T. Ingham</b></h6>
+								<h6>Business Advisor</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+						<div class="team-wrapper team2-wrapper mb-55">
+							<div class="team2-img">
+								<img src="img/user.jpg" alt="" />
+							</div>
+							<div class="team3-text text-center">
+								<h6><b>Jerome J. Kondo</b></h6>
+								<h6>Financial Advisor</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- brand-area-start -->
+		<div class="brand-area pt-80 pb-80">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="brand-active owl-carousel">
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/Halifax.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+									<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/hsbc.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/nationwide-bs-logo-srgb_0-1.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/Natwest.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/banco-santander-seeklogo.com.svg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/Aegon_logo_RGB.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/barclays.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/CBS_flat logo_RGB.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/COVENTRY.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/EX_Logo_CMYK_SafeArea.png')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/fleet.png')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/GODIVA.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/H&R 2011.jpg')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/kensington.png')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/Precise Mortgages Logo.png')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/saffron-bs-logo.png')}}">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-12">
+							<div class="brand-wrapper">
+								<div class="brand-img">
+								<img style="display: block; margin:0 auto; width: 150px; height: 50px;" class="mySlides" src="{{asset('img/sliding-logos/SKIPTON INTERMEDIARIES SPOT LOGO.jpg')}}">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- brand-area-end -->
+		<!-- team-area-end -->	
+
+
+	<script>
+    const App = new Vue({
+        el: "#implement",
+        data: {
+            principal: null,
+            interest: null,
+            years: null,
+            newConvertedFloat: null,
+
+        },
+
+        mounted () {
+        	var fnf = document.getElementById("formattedNumberField");
+                fnf.addEventListener('keyup', function(evt){
+                    var n = parseInt(this.value.replace(/\D/g,''),10);
+                    fnf.value = n.toLocaleString();
+                }, false);
+        },
+
+        computed: {
+        	remortgageCalculator() {
+        		this.newConvertedFloat = this.principal.substring(1);
+        		return Math.round(parseFloat(this.newConvertedFloat.replace(/,/g, '')) * (((this.interest/100)/12) * Math.pow((1 + ((this.interest/100)/12)), (this.years * 12)) / (Math.pow((1 + ((this.interest/100)/12)), (this.years * 12)) -1)));
+        	},
+        	totalAmount() {
+        		return (this.remortgageCalculator * (this.years * 12)).toLocaleString();
+        	}
+        }
+    })
+</script>	
 
 @endsection
